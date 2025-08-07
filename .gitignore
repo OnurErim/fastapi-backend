@@ -1,0 +1,28 @@
+# Python cache ve derleme dosyaları
+__pycache__/
+*.py[cod]
+*.so
+
+# Ortam dosyaları
+.env
+*.env
+
+# SQLite veritabanı dosyası (varsa)
+*.sqlite3
+
+# Log dosyaları
+*.log
+
+# IDE ve sistem dosyaları
+.vscode/
+.idea/
+.DS_Store
+
+# Migration cache (eğer Alembic kullanıyorsan)
+alembic.ini
+versions/
+
+# Test çıktıları
+htmlcov/
+.coverage
+*.cover
