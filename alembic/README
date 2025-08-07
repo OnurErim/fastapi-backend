@@ -1,0 +1,11 @@
+# FastAPI Backend API
+
+Bu proje, sade hata mesajları ve sürdürülebilir mimari prensipleriyle geliştirilmiş bir FastAPI backend yapısıdır.  
+Validation zincirine %100 uyumlu, Swagger görünümünde sadeleştirilmiş ve frontend ile tam entegre çalışır.
+
+## 🚀 Kurulum
+
+```bash
+pip install pipenv
+pipenv install
+uvicorn main:app --reload
